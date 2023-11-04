@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/css/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="w-full h-[100vh] bg-bgColor flex flex-wrap justify-center items-center overflow-hidden">
+        <div class="w-[150px] h-[100px] flex flex-wrap  justify-center">
+            <div class="flex justify-between items-center text-gray-600 w-full ">
+                <p id="login" class="[transform:scale(1.5)] duration-500">Login</p>
+                <p id="signup" class="duration-500">Sign up</p>
+
+            </div>
+            <div class="flex justify-center items-center w-full">
+                <div class="w-[80px] h-[18px] bg-iconsColor rounded-3xl relative">
+                    <div id="arrow"
+                        class="w-[35px] h-[35px] cursor-pointer bg-bgCard absolute top-[-7px] left-0 rounded-full flex justify-center [transition:2s] rotate-[122deg]">
+
+                        <i
+                            class="bi bi-arrow-down-short text-iconsColor text-3xl translate-x-[-0.5px] translate-y-[-2px] "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cardToggle"
+            class="[transition:3s] w-full flex justify-center items-center [transform-style:preserve-3d] [transform:perspective(800px)rotateY(0deg)] mb-[75px]">
+            <div id="cardLog"
+                class="[transform-style:preserve-3d] w-[440px] h-[400px] p-10 pb-6 flex justify-center items-center flex-wrap bg-bgCard rounded-xl  translate-x-[50%] translate-z-[1px] ">
+                <div class="text-textColor text-2xl pb-4 text-center font-semibold w-full">Login</div>
+                <p class="ERR cardLog text-textColor text-xl [text-shadow:3px_2px_20px_wheat] "></p>
+                <div
+                    class="[transform:perspective(800px)translateZ(20px)] flex items-center rounded-lg  w-full my-[6px] bg-bgInput ">
+                    <i class="text-iconsColor bi bi-at  px-3 text-2xl mb-[10px] "></i>
+                    <input type="Email" placeholder="Email" class="py-4 w-full text-textColor bg-bgInput  outline-none">
+                </div>
+                <div
+                    class="[transform:perspective(800px)translateZ(20px)] flex items-center rounded-lg  w-full my-[6px] bg-bgInput ">
+                    <i class="text-iconsColor bi bi-lock  px-3 text-2xl mb-[10px] "></i>
+                    <input type="password" placeholder="Password" class="py-4 w-full text-textColor  bg-bgInput  outline-none">
+                </div>
+                <div class="w-full flex justify-center items-center [transform-style:preserve-3d]">
+
+                    <button data-num="1"
+                        class="[transform:perspective(800px)translateZ(20px)] py-3 px-8 font-bold mt-3 text-lg bg-iconsColor text-bgInput hover:bg-bgInput hover:text-iconsColor duration-300 rounded-xl">SUBMIT</button>
+                </div>
+                <p class="text-textColor text-center [text-shadow:3px_2px_20px_wheat] cursor-pointer ">Forgot your password?</p>
+            </div>
+
+
+
+            <div id="cardSign"
+                class="[transform-style:preserve-3d] w-[440px] h-[400px] p-10 pb-6 flex justify-center items-center flex-wrap bg-bgCard rounded-xl [transform:perspective(800px)rotateY(180deg)translateX(50%)translateZ(1px)] ">
+                <div class="text-textColor text-2xl pb-4 text-center font-semibold w-full">Sign Up</div>
+                <p class="ERR cardSign text-textColor text-xl [text-shadow:3px_2px_20px_wheat] pb-1"></p>
+
+
+                <div
+                    class="[transform:perspective(800px)translateZ(20px)] flex items-center rounded-lg  w-full my-[6px] bg-bgInput ">
+                    <i class="text-iconsColor bi bi-person-fill  px-3 text-2xl mb-[10px] "></i>
+                    <input type="username" placeholder="UserName" class="py-4 w-full text-textColor bg-bgInput  outline-none">
+                </div>
+                <div
+                    class="[transform:perspective(800px)translateZ(20px)] flex items-center rounded-lg  w-full my-[6px] bg-bgInput ">
+                    <i class="text-iconsColor bi bi-at  px-3 text-2xl mb-[10px] "></i>
+                    <input type="Email" placeholder="Email" class="py-4 w-full text-textColor bg-bgInput  outline-none">
+                </div>
+                <div
+                    class="[transform:perspective(800px)translateZ(20px)] flex items-center rounded-lg  w-full my-[6px] bg-bgInput ">
+                    <i class="text-iconsColor bi bi-lock  px-3 text-2xl mb-[10px] "></i>
+                    <input type="password" placeholder="Password" class="py-4 w-full text-textColor bg-bgInput  outline-none">
+                </div>
+                <button data-num="2"
+                    class=" [transform:perspective(800px)translateZ(20px)] py-3 px-8 font-bold mt-3 text-lg bg-iconsColor text-bgInput hover:bg-bgInput hover:text-iconsColor duration-300 rounded-xl">SUBMIT</button>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="src/js/master.js">
+  
+</script>
+
+</html>
+
+<!-- 
+ PASSWORD  = P@ssw0rd
+ EMAIL =  david@davitech.io
+ USERNAME = username
+-->
