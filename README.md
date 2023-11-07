@@ -6,6 +6,8 @@
 
 - Created - 2023-9
 
+- Non Responsive
+
 - Technologies Used - HTML5 , Css , Bootstrap 
 
 - Role - Frontend
