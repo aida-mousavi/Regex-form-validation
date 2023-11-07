@@ -8,7 +8,7 @@
 
 - Non Responsive
 
-- Technologies Used - HTML5 , Css , Bootstrap 
+- Technologies Used - HTML5 , Tailwind ,Js
 
 - Role - Frontend
 
