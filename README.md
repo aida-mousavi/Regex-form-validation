@@ -1,6 +1,6 @@
 # Regex-form-validation
 
-- ![Screenshot 2023-12-22 181159](https://github.com/aida-mousavi/Regex-form-validation/assets/115708698/aa7d0802-447e-4764-9f34-37acf8696684)
+ ![Screenshot 2023-12-22 181159](https://github.com/aida-mousavi/Regex-form-validation/assets/115708698/aa7d0802-447e-4764-9f34-37acf8696684)
 
 - [Demo Project](https://aida-mousavi.github.io/Regex-form-validation/)
 
